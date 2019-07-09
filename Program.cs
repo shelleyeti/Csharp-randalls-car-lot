@@ -55,17 +55,12 @@ namespace randalls_car_lot
       //Add cars to the garage
       var garage = new List<Car>() { ford2, tesla2 };
 
+      tesla2.Drive();
+      tesla2.Drive(1000);
+
+
+      // foreach (List<Car> automobile in garage)
+      //   Console.WriteLine($"{automobile}");
     }
-  }
-
-  class Car
-  {
-    public int Year { get; set; }
-
-    public string Model { get; set; }
-
-    public string Make { get; set; }
-
-    public double Price { get; set; }
   }
 }
